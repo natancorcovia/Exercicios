@@ -1,6 +1,6 @@
 // Escreva um código que receba um numero e calcule a tabuada do 1 ao 10 desse numero
 
-package JAVA;
+package JAVA.fundamentals;
 
 import java.util.Scanner;
 
