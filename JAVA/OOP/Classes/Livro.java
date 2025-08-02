@@ -1,4 +1,4 @@
-package JAVA.OOP.Classes;
+package JAVA.OOP.classes;
 
 public class Livro {
     String titulo;
