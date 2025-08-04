@@ -1,4 +1,4 @@
-package JAVA.OOP.encapsulation;
+package JAVA.OOP.encapsulation.Ex01;
 
 public class ContaBancaria {
     private String titular;

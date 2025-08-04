@@ -1,0 +1,27 @@
+Exercício: Implementação de uma Classe ContaBancária com Encapsulamento
+
+Implemente uma classe chamada ContaBancaria no pacote JAVA.OOP.encapsulation que represente uma conta bancária simples. A classe deve ter os seguintes atributos privados:
+
+titular (String): nome do titular da conta.
+
+saldo (double): saldo atual da conta.
+
+A classe deve disponibilizar os seguintes métodos públicos:
+
+getTitular(): retorna o nome do titular.
+
+getSaldo(): retorna o saldo atual da conta.
+
+setTitular(String novoTitular): atualiza o nome do titular.
+
+depositar(double valor): adiciona o valor informado ao saldo, desde que seja positivo.
+
+sacar(double valor): subtrai o valor informado do saldo, desde que seja positivo e menor ou igual ao saldo atual; caso contrário, deve exibir uma mensagem de erro indicando que o saque é inválido.
+
+Requisitos adicionais:
+
+Utilize encapsulamento para proteger os atributos da classe.
+
+Garanta que não seja possível realizar depósitos ou saques com valores negativos.
+
+No método sacar, imprima a mensagem "Saque inválido: valor maior que o saldo ou negativo." quando o valor solicitado não puder ser sacado.

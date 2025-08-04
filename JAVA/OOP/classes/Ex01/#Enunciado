@@ -1,0 +1,35 @@
+Exercício: Criação de uma Classe Livro e Exibição de Detalhes
+
+Crie uma classe chamada Livro no pacote JAVA.OOP.classes.Ex01 que represente um livro com os seguintes atributos:
+
+titulo (String): título do livro.
+
+autor (String): nome do autor do livro.
+
+anoPublicado (int): ano de publicação do livro.
+
+A classe deve ter um método chamado detalhesDoLivro() que exiba no console as informações do livro no formato:
+
+Título: [titulo]
+Autor: [autor]
+Ano: [anoPublicado]
+
+No método main da classe Main, também no pacote JAVA.OOP.classes.Ex01, crie dois objetos Livro com os seguintes dados:
+
+Livro 1:
+
+Título: Dom Casmurro
+
+Autor: Machado de Assis
+
+Ano de publicação: 1899
+
+Livro 2:
+
+Título: 1984
+
+Autor: George Orwell
+
+Ano de publicação: 1949
+
+Depois, chame o método detalhesDoLivro() para cada livro para exibir suas informações.

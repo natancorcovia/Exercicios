@@ -1,4 +1,4 @@
-package JAVA.OOP.classes;
+package JAVA.OOP.classes.Ex01;
 
 public class Main{
     public static void main(String[] args) {

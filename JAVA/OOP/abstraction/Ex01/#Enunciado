@@ -1,0 +1,15 @@
+Exercício 1 — Criar uma classe abstrata
+
+Crie uma classe abstrata chamada Veiculo com:
+
+Um método abstrato mover() (sem implementação)
+
+Um método concreto parar() que imprime "Veículo parado"
+
+Crie duas classes que herdam Veiculo:
+
+Carro, que implementa mover() imprimindo "O carro está se movendo"
+
+Bicicleta, que implementa mover() imprimindo "A bicicleta está se movendo"
+
+No método main, crie um objeto de cada e chame mover() e parar().
