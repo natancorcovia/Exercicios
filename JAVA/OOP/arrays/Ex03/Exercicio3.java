@@ -6,6 +6,7 @@ public class Exercicio3 {
     public static void main(String[] args) {
         int[] numeros = {8, 4, 12, 3, 7};
         int maiorValor = numeros[0];
+        
         for(int index = 1; index < numeros.length; index++){
             if(numeros[index]>maiorValor){
                 maiorValor = numeros[index];
