@@ -1,4 +1,4 @@
-package JAVA.OOP;
+package JAVA.OOP.challenges.c02;
 
 import java.util.Scanner;
 

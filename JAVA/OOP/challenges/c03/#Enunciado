@@ -1,0 +1,45 @@
+📚 Contexto:
+Você está desenvolvendo um sistema simples que simula pagamentos para diferentes meios (Cartão de Crédito, Pix, Boleto).
+Cada tipo de pagamento tem que seguir o mesmo contrato, mas com comportamentos diferentes.
+
+Crie uma interface MetodoPagamento com os métodos:
+
+void pagar(double valor);
+
+String getTipo();
+
+Crie 3 classes que implementam essa interface:
+
+CartaoCredito
+
+Pix
+
+Boleto
+
+Cada uma deve:
+
+Implementar o método pagar(valor) com sua própria mensagem.
+
+Implementar getTipo() retornando o tipo de pagamento.
+
+Crie uma classe abstrata Transacao:
+
+Atributo double valor (encapsulado com get/set)
+
+Método concreto mostrarValor()
+
+Método abstrato processar()
+
+Crie uma subclasse Pagamento que estende Transacao:
+
+Recebe um MetodoPagamento no construtor
+
+Implementa processar() chamando pagar(valor) do método de pagamento
+
+No main:
+
+Crie um array de MetodoPagamento com os três tipos
+
+Para cada um, crie uma Pagamento com valor qualquer (ex: 150.0)
+
+Chame processar() e mostrarValor()

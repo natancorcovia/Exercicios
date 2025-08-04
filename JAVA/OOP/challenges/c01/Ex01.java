@@ -1,4 +1,4 @@
-package JAVA.OOP;
+package JAVA.OOP.challenges.c01;
 
 public class Ex01 {
     private String nome;
