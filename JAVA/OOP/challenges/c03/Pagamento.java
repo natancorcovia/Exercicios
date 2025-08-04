@@ -6,12 +6,12 @@ class Pagamento extends Transacao{
 
     public Pagamento (MetodoPagamento metodoPagamento , double valor){
         this.metodoPagamento = metodoPagamento;
-        this.valor = valor;
+        setValor(valor);
     }
 
     @Override
     public void processar() {
         System.out.println("Processando pagamento via: " + metodoPagamento.getTipo());
-        metodoPagamento.pagar(valor);
+        metodoPagamento.pagar(getValor());
     }
 }

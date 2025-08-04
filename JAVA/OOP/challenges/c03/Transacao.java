@@ -7,7 +7,7 @@ abstract class Transacao {
         return valor;
     }
 
-    public void SetValor(double novoValor){
+    public void setValor(double novoValor){
         valor = novoValor;
     }
 
