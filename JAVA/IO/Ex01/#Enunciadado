@@ -1,0 +1,7 @@
+Crie um programa que:
+
+Peça para o usuário digitar 3 frases.
+
+Grave cada frase em uma linha no arquivo frases.txt.
+
+Depois, leia e imprima o conteúdo do arquivo.
