@@ -1,0 +1,8 @@
+Crie uma classe Produto com atributos nome, preco e quantidadeEmEstoque.
+Implemente métodos para:
+
+- Comprar produto (aumentar estoque)
+
+- Vender produto (diminuir estoque)
+
+- Exibir informações formatadas
