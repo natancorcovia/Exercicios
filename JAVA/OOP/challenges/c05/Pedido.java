@@ -18,6 +18,7 @@ public class Pedido {
         this.numeroPedido = numeroPedido;
         this.produtos = new ArrayList<>();
     }
+    
     public void adicionarProduto(Produto produto){
         produtos.add(produto);
         System.out.println("Adicionado ao pedido " + numeroPedido);
