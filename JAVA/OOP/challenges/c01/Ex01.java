@@ -18,7 +18,7 @@ public class Ex01 {
 
     public void setPreco( double novoPreco){
         if(novoPreco > 0){
-           preco = novoPreco;
+        preco = novoPreco;
         };
     }
 

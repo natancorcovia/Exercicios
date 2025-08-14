@@ -1,0 +1,28 @@
+Você deve criar um sistema simples para gerenciar produtos e pedidos de uma loja. O sistema deve permitir cadastrar produtos, adicionar produtos a pedidos e calcular o total de um pedido.
+
+Classe Produto
+Atributos:
+String nome
+double preco
+Métodos:
+Construtor que inicializa nome e preco.
+getNome(), getPreco().
+
+Classe Pedido
+Atributos:
+int numeroPedido
+List<Produto> produtos
+Métodos:
+Construtor que inicializa numeroPedido.
+adicionarProduto(Produto produto) → adiciona um produto ao pedido.
+calcularTotal() → retorna o total do pedido (somatório do preço de todos os produtos).
+listarProdutos() → imprime no console todos os produtos do pedido.
+
+Classe Cliente (opcional para nível intermediário)
+Atributos:
+String nome
+List<Pedido> pedidos
+Métodos:
+Construtor que inicializa nome.
+fazerPedido(Pedido pedido) → adiciona o pedido à lista de pedidos do cliente.
+verHistorico() → imprime todos os pedidos do cliente com seus produtos e valores.
