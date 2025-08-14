@@ -9,35 +9,25 @@
    exibirInformacoes() → mostrar número, titular e saldo formatado
    Construtor para inicializar os atributos.
    Getters e Setters com validações.
+
 2. Subclasses
    ContaCorrente
    Atributo extra: limiteChequeEspecial (double)
    Sobrescrever sacar para permitir saque além do saldo, usando limite.
 
 ContaPoupanca
-
 Atributo extra: taxaRendimento (double)
-
 Método renderJuros() → aumenta saldo com base na taxa.
 
 3. Classe Banco
-
-Atributo: ArrayList<Conta> contas
-
-Métodos:
-
-adicionarConta(Conta conta)
-
-buscarConta(String numero) → retorna a conta ou null
-
-transferir(String numeroOrigem, String numeroDestino, double valor)
-
-listarContas()
+   Atributo: ArrayList<Conta> contas
+   Métodos:
+   adicionarConta(Conta conta)
+   buscarConta(String numero) → retorna a conta ou null
+   transferir(String numeroOrigem, String numeroDestino, double valor)
+   listarContas()
 
 4. Classe Main
-
-Criar instâncias de contas
-
-Realizar depósitos, saques, transferências e render juros
-
-Exibir todas as contas cadastradas
+   Criar instâncias de contas
+   Realizar depósitos, saques, transferências e render juros
+   Exibir todas as contas cadastradas
